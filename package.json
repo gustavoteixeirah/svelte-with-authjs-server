@@ -1,0 +1,22 @@
+{
+  "name": "appserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/api": "^1.7.0",
+    "@opentelemetry/auto-instrumentations-node": "^0.40.3",
+    "@opentelemetry/sdk-metrics": "^1.19.0",
+    "@opentelemetry/sdk-node": "^0.46.0",
+    "@opentelemetry/sdk-trace-node": "^1.19.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "type": "module"
+}
